@@ -7,8 +7,10 @@ services:
       - "8081:8080"
     container_name: rtmp_server
     volumes:
-      - ./data:/tmp/hls:Z
+      - ./data:/tmp/hls:z
 
   auth:
     build: ./auth
     container_name: auth_server
+    volumes:
+      - ./data:/tmp/hls:z
