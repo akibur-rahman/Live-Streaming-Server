@@ -10,7 +10,7 @@ app.post("/auth", function (req, res) {
   const streamkey = req.body.key;
 
   /* You can make a database of users instead :) */
-  if (streamkey === "dc3I0k2VbLbfnqcUXeajctDQ") {
+  if (streamkey === "aP9XfQ2mZL0WkD8sEJrTnU5cB") {
     res.status(200).send();
     return;
   }
